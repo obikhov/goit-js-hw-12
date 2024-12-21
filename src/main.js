@@ -1,6 +1,4 @@
-import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
-import { fetchImages } from './js/pixabay-api.js';
+
 import { createImageMarkup, updateGallery, clearGallery } from './js/render-functions.js';
 
 const searchForm = document.querySelector('#search-form');
